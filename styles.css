@@ -1,23 +1,31 @@
-div {
-    height: 200px;
+.box {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
     background-color: #1F2937;
     font-size: 24px;
     color: #F9FAF8;
+    height: 200px;
 }
 
 .tiles{
-    
+    height: 200px;
 }
 
 .quotes {
     background-color: #E5E7EB;
-
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1F2937;
+    height: 200px;
 }
 
-
+.action {
+    height: 200px;
+}
 
 .footer {
     background-color: #1F2937;
