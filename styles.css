@@ -14,13 +14,18 @@
     height: 200px;
 }
 
-.quotes {
+.testimonial {
     background-color: #E5E7EB;
     font-style: italic;
     font-weight: 100;
     font-size: 36px;
     color: #1F2937;
     height: 200px;
+}
+
+.attributed {
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .action {
