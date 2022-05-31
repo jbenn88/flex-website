@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+body {
+    margin: 0;
+}
+
 nav ul {
     display: flex;
     list-style: none;
@@ -27,6 +31,7 @@ nav li {
 }
 
 .hero {
+    padding: 0px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
