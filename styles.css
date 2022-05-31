@@ -3,9 +3,12 @@
     flex-direction: column;
 }
 
+
 nav ul {
     display: flex;
     list-style: none;
+    font-size: 16px;
+    background-color: #1F2937;
 }
 
 nav li {
@@ -18,15 +21,18 @@ nav li {
     color: #F9FAF8;
 }
 
-.tiles{
-    height: 200px;
+.tiles div {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .testimonial {
     background-color: #E5E7EB;
     font-style: italic;
     font-weight: 100;
-    font-size: 36px;
+    font-size: 26px;
     color: #1F2937;
 
 }
@@ -42,5 +48,8 @@ nav li {
 
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
     height: 80px;
+    justify-content: center;
+    align-items: center;
 }
