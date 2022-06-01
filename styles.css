@@ -85,22 +85,38 @@ img {
 
 .info {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .info-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.info-title div {
     font-weight: bolder;
     font-size: 26px;
     color: #1F2937;
 }
 
 .tiles {
+    display: flex;
+    justify-content: center;
 }
 
 .tiles div {
-
+    width: 100px;
+    height: 100px;
+    background: #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    margin: 12px;
 }
+
+
 
 .testimonial {
     background-color: #E5E7EB;
