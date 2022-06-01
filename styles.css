@@ -1,6 +1,7 @@
 .box {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 body {
@@ -9,10 +10,11 @@ body {
 
 nav ul {
     display: flex;
+    align-items: baseline;
     list-style: none;
-    font-size: 12px;
+    font-size: 18px;
     background-color: #1F2937;
-
+    color: #E5E7EB;
 }
 
 nav li {
@@ -25,8 +27,8 @@ nav li {
 
 .push-left {
     margin-right: auto;
+    font-size: 24px;
     font-weight: bold;
-    font-size: 16px;
 }
 
 .hero {
@@ -40,14 +42,48 @@ nav li {
 .hero-content {
     display: flex;
     margin-left: 50px; 
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
-.hero-content div {
-    flex: auto;
+.hero-left{
+    flex: 1 1 auto;
+    margin: 5px;
 }
+
+.title p {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.subtitle p {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+
+.hero-right {
+
+    display: flex;
+    flex: 1 1 auto;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .media {
     margin-right: 60px;
+
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tiles {
@@ -59,7 +95,7 @@ nav li {
     background-color: #E5E7EB;
     font-style: italic;
     font-weight: 100;
-    font-size: 26px;
+    font-size: 36px;
     color: #1F2937;
 
 }
