@@ -20,7 +20,6 @@ nav li {
 }
 
 .navbar {
-    margin-left: 50px;
     margin-right: 50px;
 }
 
@@ -31,7 +30,6 @@ nav li {
 }
 
 .hero {
-    padding: 0px;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
@@ -39,13 +37,23 @@ nav li {
     color: #F9FAF8;
 }
 
-.tiles div {
-    
-    height: 100px;
-    width: 100px;
-    align-items: center;
-    justify-content: center;
+.hero-content {
+    display: flex;
+    margin-left: 50px; 
 }
+
+.hero-content div {
+    flex: auto;
+}
+
+.media {
+    margin-right: 60px;
+}
+
+.tiles {
+    height: 200px;
+}
+
 
 .testimonial {
     background-color: #E5E7EB;
