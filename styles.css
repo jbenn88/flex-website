@@ -118,8 +118,9 @@ img {
     height: 100px;
     background: #F9FAF8;
     border-radius: 10px;
-    background-color: #3882F6;
-    margin: 12px;
+    background-color: #F9FAF8;
+    border: 2px solid #3882F6;
+    margin: 15px;
 }
 
 .tile-subtitle {
