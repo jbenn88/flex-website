@@ -102,18 +102,28 @@ img {
     color: #1F2937;
 }
 
-.tiles {
+.tile-row {
     display: flex;
     justify-content: center;
 }
 
-.tiles div {
+.tile-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile {
     width: 100px;
     height: 100px;
     background: #F9FAF8;
     border-radius: 10px;
     background-color: #3882F6;
     margin: 12px;
+}
+
+.tile-subtitle {
+    display: flex;
 }
 
 
