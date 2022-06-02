@@ -22,7 +22,8 @@ nav li {
 }
 
 .navbar {
-    margin-right: 50px;
+    margin-right: 10%;
+    margin-left: 5%;
 }
 
 .push-left {
@@ -39,16 +40,16 @@ nav li {
     color: #F9FAF8;
 }
 
+.hero-left {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .hero-content {
     display: flex;
     margin-left: 50px; 
     margin-bottom: 80px;
     margin-top: 50px;
-}
-
-.hero-left{
-    flex: 1 1 auto;
-    margin: 15px;
 }
 
 .hero-title p {
@@ -71,11 +72,8 @@ nav li {
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-}
+    margin-right: 11%;
 
-
-.media {
-    margin-right: 60px;
 }
 
 img {
@@ -125,16 +123,26 @@ img {
 
 .tile-subtitle {
     display: flex;
+    
 }
 
+.testimonial-box {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
 
+}
 
 .testimonial {
-    background-color: #E5E7EB;
+
     font-style: italic;
     font-weight: 100;
     font-size: 26px;
     color: #1F2937;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 55px;
+    margin-bottom: 55px;
 
 }
 
