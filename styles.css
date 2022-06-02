@@ -63,7 +63,7 @@ nav li {
 .hero-subtitle p {
     font-size: 14px;
     color: #F9FAF8;
-    font-weight: lighter;
+    font-weight: 350;
     margin-top: 0px;
 }
 
@@ -153,11 +153,30 @@ img {
     margin-bottom: 70px;
 }
 
-.action {
-    height: 200px;
+.action-box {
+    display: flex;
 }
 
-.footer {
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title {
+
+}
+
+.action-subtitle {
+
+}
+
+.action-btn {
+    background-color: #3882F6;
+    font-size: 16px;
+    
+}
+
+.footer-box {
     background-color: #1F2937;
     color: #F9FAF8;
     height: 80px;
